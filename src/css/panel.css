@@ -1,14 +1,14 @@
 .Panel{
   border: 1px solid;  
   text-align: center;
-  background-color:#cc998d;
+  background-color: #FDCFB3;
  
 }
 
 .PanelD{
   border: 1px solid;  
   text-align: center;
-  background-color:#afa4b2;
+  background-color: #CEC8E4;
   height: 395px;
   
  
@@ -79,4 +79,23 @@ posicionButton{
 .imgUpload{
   width:10%;
   height: 10%;
+}
+
+.contentChat{
+  padding:2px;
+  background-color:#cc998d;
+}
+.chat{
+ 
+    padding:2px;
+    cursor:pointer;
+    margin-left:5%;
+    margin-right: 25%;
+    text-align:start;
+    align-content: center;
+    border: 1px solid;  
+    
+
+
+ 
 }

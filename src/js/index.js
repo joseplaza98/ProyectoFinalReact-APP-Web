@@ -8,7 +8,7 @@ import Header from './component/header.js';
 import Login from './component/Login.js';
 import Recomendado from './component/recomendado.js';
 import Almacenar from './component/almacenar.js';
-
+import App from './component/App.js';
 
 
 //
@@ -33,7 +33,7 @@ ReactDOM.render(
 
   <div>
 
-    
+
     <Grid container spacing={24}>
       <Grid item xs={12}>
         <Paper><Header /></Paper>
@@ -54,7 +54,7 @@ ReactDOM.render(
         <Paper><Almacenar /></Paper>
       </Grid>
       <Grid item xs={5}>
-        <Paper><Almacenar /></Paper>
+        <Paper><App /></Paper>
       </Grid>
     </Grid>
 
@@ -83,7 +83,8 @@ ReactDOM.render(
 
         </Paper>
       </Grid>
-      
+
+
     </Grid>
 
   </div>

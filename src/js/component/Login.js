@@ -61,7 +61,9 @@ class Panel extends React.Component {
     renderLoginButton() {
         //Si el usuario esta logueado
         if (this.state.user) {
+            
             return (
+                
                 <div class="gridLogin">
 
                     <img src={this.state.user.photoURL} alt={this.state.user.displayName} className="userImage" />
@@ -70,9 +72,12 @@ class Panel extends React.Component {
                     
 
                 </div>
+                
             );
+            
         } else {
             //Si no esta logeado
+            
             return (
                 <div>
                     <Button  color="primary" onClick={this.handleAuth}>Login</Button>
@@ -81,6 +86,7 @@ class Panel extends React.Component {
                 </div>
 
             );
+            
         }
 
     }
